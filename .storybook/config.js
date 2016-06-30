@@ -4,6 +4,9 @@
 // Do not modify this file.
 
 import { configure } from '@kadira/storybook';
+import { setStubbingMode } from '../'
+
+setStubbingMode(true);
 
 function loadStories() {
   require('../src/stories');
