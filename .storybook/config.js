@@ -4,7 +4,7 @@
 // Do not modify this file.
 
 import { configure } from '@kadira/storybook';
-import { setStubbingMode } from '../'
+import { setStubbingMode } from '../src'
 
 setStubbingMode(true);
 

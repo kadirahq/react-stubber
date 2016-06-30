@@ -1,6 +1,6 @@
 import React from 'react';
 import compose from './compose';
-import { mayBeStubbed } from '../../';
+import { mayBeStubbed } from '../';
 
 export const CommentList = () => (
   <ul>
