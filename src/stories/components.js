@@ -1,8 +1,8 @@
 import React from 'react';
 import compose from './compose';
-import { mayBeStubbed } from '../..';
+import { mayBeStubbed } from '../../';
 
-export const CommentList = (comments) => (
+export const CommentList = () => (
   <ul>
 
   </ul>
@@ -22,7 +22,7 @@ export const Post1 = (post) => (
     <p>{post.text}</p>
     <hr />
     <h3>Comments</h3>
-    <CommentListContainer1 postId={post.id}/>
+    <CommentListContainer1 postId={post.id} />
   </div>
 );
 
@@ -32,7 +32,7 @@ export const Post2 = (post) => (
     <p>{post.text}</p>
     <hr />
     <h3>Comments</h3>
-    <CommentListContainer2 postId={post.id}/>
+    <CommentListContainer2 postId={post.id} />
   </div>
 );
 
@@ -42,6 +42,6 @@ export const Post3 = (post) => (
     <p>{post.text}</p>
     <hr />
     <h3>Comments</h3>
-    <CommentListContainer3 postId={post.id}/>
+    <CommentListContainer3 postId={post.id} />
   </div>
 );

@@ -1,7 +1,7 @@
 import React from 'react';
-import { storiesOf, action } from '@kadira/storybook';
+import { storiesOf } from '@kadira/storybook';
 import { Post1, Post2, Post3, CommentListContainer3 } from './components';
-import { stub } from '../'
+import { stub } from '../../';
 
 const stories = storiesOf('React Stubber', module);
 
