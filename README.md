@@ -4,7 +4,7 @@ A simple but useful stubbing solution for React. This will work with any contain
 
 ---
 
-Read this article for an introduction: [Stubbing React Containers for Testing](#)
+Read this article for an introduction: [Stubbing React Containers for Testing](https://voice.kadira.io/stubbing-react-containers-for-testing-11bcd537e586?source=latest)
 
 ## Usage
 
