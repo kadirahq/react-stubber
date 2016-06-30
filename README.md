@@ -47,6 +47,7 @@ We need to do this, before importing any React component. This is something you 
 
 ```js
 import { setStubbingMode } from 'react-stubber';
+setStubbingMode(true);
 ```
 
 Then when we render Post we will get something like this:
