@@ -4,7 +4,7 @@ A simple but useful stubbing solution for React. This will work with any contain
 
 ---
 
-Read this article for an introduction: [Stubbing React Containers for Testing](#)
+Read this article for an introduction: [Stubbing React Containers for Testing](https://voice.kadira.io/stubbing-react-containers-for-testing-11bcd537e586?source=latest)
 
 ## Usage
 
@@ -47,6 +47,7 @@ We need to do this, before importing any React component. This is something you 
 
 ```js
 import { setStubbingMode } from 'react-stubber';
+setStubbingMode(true);
 ```
 
 Then when we render Post we will get something like this:
